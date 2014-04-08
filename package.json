@@ -1,0 +1,17 @@
+{
+  "name": "cpm",
+  "version": "1.0.0",
+  "title": "Colégio Primeiro Mundo",
+  "homepage": "http://www.colegio1mundo.com.br",
+  "description": "Minha Escola, Meu Mundo",
+  "author": "http://about.me/jteodoro",
+  "tags": "colegio, joao pessoa, paraiba, educacao",
+  "repository": {
+    "type": "git",
+    "url": "https://joaotdn@bitbucket.org/joaotdn/dona-fruta.git"
+  },
+  "devDependencies": {
+  }
+}
+
+//acesso_wfbd - c1m20727
