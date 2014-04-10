@@ -1,3 +1,11 @@
+@font-face {
+	font-family: 'Aller-Light';
+	src: url('fonts/Aller-Light.eot?') format('eot'), 
+	     url('fonts/Aller-Light.woff') format('woff'), 
+	     url('fonts/Aller-Light.ttf')  format('truetype'),
+	     url('fonts/Aller-Light.svg#Aller-Light') format('svg');
+}
+
 // Foundation by ZURB
 // foundation.zurb.com
 // Licensed under MIT Open Source
@@ -34,14 +42,14 @@
 // $include-xl-html-grid-classes: false;
 
 // $row-width: rem-calc(1000);
-// $total-columns: 12;
+$total-columns: 12;
 
 // Global
 
 // We use these to control various global styles
-// $body-bg: #fff;
+$body-bg: #fff url(images/bg-body.jpg);
 // $body-font-color: #222;
-// $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$body-font-family: 'Aller-Light',"Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 // $body-font-weight: normal;
 // $body-font-style: normal;
 
@@ -1126,12 +1134,12 @@
 // We use these to control border styles
 // $thumb-border-style: solid;
 // $thumb-border-width: 4px;
-// $thumb-border-color: #fff;
-// $thumb-box-shadow: 0 0 0 1px rgba(#000,.2);
+$thumb-border-color: #fff;
+$thumb-box-shadow: none;
 // $thumb-box-shadow-hover: 0 0 6px 1px rgba($primary-color,0.5);
 
 // Radius and transition speed for thumbs
-// $thumb-radius: $global-radius;
+$thumb-radius: rem-calc(10);
 // $thumb-transition-speed: 200ms;
 
 //

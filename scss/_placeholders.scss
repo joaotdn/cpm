@@ -1,0 +1,6 @@
+%transition {
+	@include single-transition;
+}
+%rounded {
+	@include border-radius(5px);
+}

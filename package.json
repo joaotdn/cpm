@@ -1,17 +1,26 @@
 {
   "name": "cpm",
   "version": "1.0.0",
-  "title": "Colégio Primeiro Mundo",
+  "title": "Colegio 1o Mundo",
   "homepage": "http://www.colegio1mundo.com.br",
   "description": "Minha Escola, Meu Mundo",
   "author": "http://about.me/jteodoro",
-  "tags": "colegio, joao pessoa, paraiba, educacao",
+  "tags": "educacao, joao pessoa, colegio",
   "repository": {
     "type": "git",
-    "url": "https://joaotdn@bitbucket.org/joaotdn/dona-fruta.git"
+    "url": "https://github.com/joaotdn/cpm.git"
   },
   "devDependencies": {
+    "grunt": "^0.4.4",
+    "grunt-contrib-compass": "~0.2.0",
+    "grunt-contrib-imagemin": "~0.1.4",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-watch": "~0.4.3",
+    "grunt-rsync": "~0.1.1",
+    "matchdep": "~0.1.2",
+    "grunt-ftp-deploy": "^0.1.2",
+    "grunt-contrib-cssmin": "^0.9.0",
+    "grunt-spritesmith": "^1.24.0"
   }
 }
-
-//acesso_wfbd - c1m20727
