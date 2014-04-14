@@ -1,0 +1,63 @@
+/**
+ * Geral
+ */
+.page-wrapper {
+
+}
+
+.page-header {
+	height: 150px;
+	background: #348dc6 url(images/cloud-header.png) no-repeat center bottom;
+	text-align: center;
+
+	h3 {
+		margin-top: rem-calc(112);
+	}
+}
+
+.page-content {
+	padding-top: rem-calc(30);
+	min-height: rem-calc(520);
+}
+
+/**
+ * Contact page
+ */
+.contact-form {
+	padding: rem-calc(5);
+	@extend %rounded;
+	border: 1px dashed white;
+
+	input, textarea {
+		width: 100%;
+		float: left;
+		background: white;
+		@extend %rounded;
+		border: none;
+		color: $blue;
+	}
+	textarea {
+		margin-bottom: 0;
+	}
+}
+
+.address {
+	div {
+		margin-bottom: rem-calc(10);
+	}
+	p {
+		font-size: rem-calc(14);
+		color: $blue-hard;
+		font-family: 'Concert One', cursive;
+		margin: 0;
+	}
+	a {
+		font-family: 'Aller-Light';
+		font-size: rem-calc(14);
+		color: $blue-hard;
+	}
+	span {
+		margin-top: rem-calc(5);
+		margin-left: rem-calc(10);
+	}
+}

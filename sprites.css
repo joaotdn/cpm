@@ -12,19 +12,19 @@
 }
 .icon-bg-estrutura {
   background-image: url(images/spritesheet.png);
-  background-position: -182px 0px;
+  background-position: 0px -253px;
   width: 303px;
   height: 117px;
 }
 .icon-bg-newsletter {
   background-image: url(images/spritesheet.png);
-  background-position: 0px -136px;
+  background-position: -182px 0px;
   width: 303px;
   height: 117px;
 }
 .icon-bg-restrita {
   background-image: url(images/spritesheet.png);
-  background-position: 0px -253px;
+  background-position: 0px -136px;
   width: 303px;
   height: 117px;
 }
@@ -42,13 +42,13 @@
 }
 .icon-developer {
   background-image: url(images/spritesheet.png);
-  background-position: -585px -245px;
+  background-position: -587px -245px;
   width: 122px;
   height: 24px;
 }
 .icon-facebook {
   background-image: url(images/spritesheet.png);
-  background-position: -485px -245px;
+  background-position: -747px -204px;
   width: 28px;
   height: 28px;
 }
@@ -60,13 +60,13 @@
 }
 .icon-hover-news {
   background-image: url(images/spritesheet.png);
-  background-position: 0px -370px;
+  background-position: -485px 0px;
   width: 304px;
   height: 78px;
 }
 .icon-instagram {
   background-image: url(images/spritesheet.png);
-  background-position: -747px -204px;
+  background-position: -485px -245px;
   width: 30px;
   height: 28px;
 }
@@ -82,15 +82,21 @@
   width: 44px;
   height: 50px;
 }
+.icon-map {
+  background-image: url(images/spritesheet.png);
+  background-position: -764px -78px;
+  width: 19px;
+  height: 25px;
+}
 .icon-news-active {
   background-image: url(images/spritesheet.png);
-  background-position: -485px 0px;
+  background-position: 0px -370px;
   width: 304px;
   height: 78px;
 }
 .icon-next-event {
   background-image: url(images/spritesheet.png);
-  background-position: -549px -245px;
+  background-position: -515px -245px;
   width: 36px;
   height: 27px;
 }
@@ -114,7 +120,7 @@
 }
 .icon-prev-event {
   background-image: url(images/spritesheet.png);
-  background-position: -513px -245px;
+  background-position: -551px -245px;
   width: 36px;
   height: 27px;
 }

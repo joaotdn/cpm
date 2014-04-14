@@ -74,16 +74,16 @@
     <nav id="main-slide" class="container left rel">
       <div class="slide-mask container">
 
-          <figure class="container left">
-            <img src="media/slide1.jpg" alt="">
+          <figure class="left container" style="background-image: url(media/slide1.jpg); background-size: cover;">
+            
           </figure>
 
-          <figure class="container left">
-            <img src="media/slide1.jpg" alt="">
+          <figure class="left container" style="background-image: url(media/slide1.jpg); background-size: cover;">
+            
           </figure>
 
-          <figure class="container left">
-            <img src="media/slide1.jpg" alt="">
+          <figure class="left container" style="background-image: url(media/slide1.jpg); background-size: cover;">
+            
           </figure>
 
       </div>
@@ -92,10 +92,11 @@
       </div>
     </nav>
 
-    <div class="wrapper home-content container rel">      
+    <div class="wrapper home-content container rel">
+      <div class="sky-clouds abs"></div>      
       <div class="blue-sky abs">
 
-        <div class="row">
+        <div class="row" style="padding-top:60px;">
           
           <section id="last-news" class="small-8 columns">
             <header class="small-12 left">
@@ -107,16 +108,34 @@
             <div class="small-12 border-dashed left">
             
             <div class="bg-news small-12 left rel">
-              <figure class="small-6 left news-thumb rel">
+
+            <nav class="nav-news small-6 left">
+
+              <figure class="news-thumb rel">
                 <a href="#" title="" class="display-block left">
                   <img src="media/news1.jpg" alt="">
                 </a>
               </figure>
-            
+
+              <figure class="news-thumb rel">
+                <a href="#" title="" class="display-block left">
+                  <img src="media/news1.jpg" alt="">
+                </a>
+              </figure>
+
+              <figure class="news-thumb rel">
+                <a href="#" title="" class="display-block left">
+                  <img src="media/news1.jpg" alt="">
+                </a>
+              </figure>
+
+            </nav>
+
+            <div class="hide-navs" style="display:none;"></div>
 
             <nav class="list-news small-6 abs">
               
-              <a href="#" class="display-block left rel" title="">
+              <a href="#" class="display-block left rel active" title="">
                 <div class="icon-hover-news abs"></div>
                 <div class="icon-news-active abs"></div>
                 <h6 class="text-upp rel left">Rchitecto suscipit beatae quo fuga accusantium voluptatum.</h6>                
@@ -155,7 +174,7 @@
             </header>
 
             <div class="icon-bg-videos rel left">
-              <figure class="small-10 left rel">
+              <figure class="small-12 left rel thumb-video">
                 <a href="#" class="icon-play abs display-block"></a>
                 <a href="#" title="">
                   <img src="media/video.jpg" alt="">

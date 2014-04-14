@@ -33,7 +33,7 @@ figure {
 .blue-sky {
 	width: 100%;
 	height: 100%;
-	@include background-image(linear-gradient(top, rgba(#3da2e2,.8), transparent));
+	@include background-image(linear-gradient(top, #3da2e2, transparent));
 }
 
 .font-cursive {
@@ -42,6 +42,12 @@ figure {
 
 .row {
 	width: rem-calc(960) !important;
+}
+
+.sky-clouds {
+	width: 100%;
+	height: rem-calc(346);
+	background: url(images/bg-clouds.png) no-repeat;
 }
 
 /**
@@ -167,27 +173,33 @@ figure {
  */
 #main-slide {
 	background: rgba(#3da2e2,.8);
-	height: rem-calc(400);
+	height: rem-calc(300);
+	padding-bottom: rem-calc(60);
 }
 
 .slide-mask {
-	height: rem-calc(330);
+	height: rem-calc(300);
 	overflow: hidden;
-	@include border-radius(0 0 30% 30%);
+
 	figure {
 		background: rgba(#3da2e2,.5);
+		height: rem-calc(300);
+	}
+	img {
+		height: rem-calc(300);
+		width: auto;
 	}
 }
 
 %active-slide {
-	background: $blue;
+	background: $blue-hard;
 	color: white;
 }
 
 #nav {
 	z-index: 99;
 	right: 10%;
-	bottom:  60px;
+	bottom:  rem-calc(-20);
 
 	a {
 		font-family: 'Concert One', cursive;
@@ -228,7 +240,9 @@ figure {
 .news-thumb {
 	margin-top: rem-calc(3);
 	position: relative;
-	z-index: 99;
+	z-index: 1;
+	background: white !important;
+	border-radius: 10px;
 
 	img {
 		border-radius: 10px;
@@ -266,6 +280,15 @@ figure {
 				color: white;
 			}
 		}
+
+		&.active {
+			.icon-news-active {
+				@include opacity(1);
+			}
+			h6 {
+				color: white;
+			}
+		}
 	}
 
 	h6 {
@@ -276,6 +299,10 @@ figure {
 	}
 }
 
+.nav-news {
+	z-index: 1;
+}
+
 /**
  * Videos
  */
@@ -284,8 +311,10 @@ figure {
 		margin-bottom: rem-calc(20);
 	}
 	figure {
-		margin: rem-calc(20) 0 0 rem-calc(20);
 		@extend %transition;
+		@extend %rounded;
+		border: 1px dashed white;
+		padding: rem-calc(5);
 		@include opacity(.8);
 		&:hover {
 			@include opacity(1);
@@ -293,6 +322,7 @@ figure {
 	}
 	img {
 		@extend %rounded;
+		border: 4px solid white;
 	}
 }
 
@@ -442,11 +472,11 @@ figure {
 //Media Queries
 
 @media #{$medium-only} { 
-	#main-slide {
-		height: rem-calc(400);
-	}
+	//#main-slide {
+		//height: rem-calc(400);
+	//}
 
-	.slide-mask {
-		height: rem-calc(330);
-	}
+	//.slide-mask {
+		//height: rem-calc(330);
+	//}
 }

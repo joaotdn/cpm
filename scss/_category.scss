@@ -1,0 +1,33 @@
+/**
+ * Posts
+ */
+.list-news-posts {
+	a {
+		color: $blue-hard;
+		@extend %transition;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+	p {
+		font-size: rem-calc(12);
+	}
+}
+
+.nav-news-page {
+	margin-bottom: rem-calc(40);
+
+	a,span {
+		font-family: 'Concert One', cursive;
+		font-size: rem-calc(26) !important;
+	}
+	a {
+		color: $blue;
+		&:hover {
+			color: $yellow;
+		}
+	}
+	span {
+		color: $yellow;
+	}
+}
