@@ -30,6 +30,11 @@ figure {
 	margin: 0;
 }
 
+iframe {
+	width: 100% !important;
+	min-height: 420px !important;
+}
+
 .blue-sky {
 	width: 100%;
 	height: 100%;
@@ -238,15 +243,20 @@ figure {
 	}
 }
 .news-thumb {
-	margin-top: rem-calc(3);
+	//margin-top: rem-calc(3);
 	position: relative;
 	z-index: 1;
 	background: white !important;
 	border-radius: 10px;
+	overflow: hidden;
+	width: 280px !important;
+	height: 225px !important;
+
 
 	img {
 		border-radius: 10px;
-		border: 4px solid white;
+		height: 100% !important;
+		width: auto !important;
 	}
 }
 
@@ -331,10 +341,17 @@ figure {
 }
 
 .icon-play {
-	left: rem-calc(86);
+	left: rem-calc(107);
 	top: rem-calc(58.5);
 }
+.this-video {
+	display: none;
+}
 
+.play-video {
+	width: 100%;
+	float: left;
+}
 /**
  * Eventos
  */

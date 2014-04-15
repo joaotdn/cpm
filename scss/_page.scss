@@ -36,8 +36,13 @@
 		border: none;
 		color: $blue;
 	}
-	textarea {
-		margin-bottom: 0;
+
+	input[type="submit"] {
+		background: $blue;
+		color: white;
+		text-transform: uppercase;
+		font-size: rem-calc(16);
+		padding: rem-calc(10) 0;
 	}
 }
 

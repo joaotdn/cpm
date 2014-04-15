@@ -42,13 +42,13 @@
 }
 .icon-developer {
   background-image: url(images/spritesheet.png);
-  background-position: -587px -245px;
+  background-position: -585px -245px;
   width: 122px;
   height: 24px;
 }
 .icon-facebook {
   background-image: url(images/spritesheet.png);
-  background-position: -747px -204px;
+  background-position: -485px -245px;
   width: 28px;
   height: 28px;
 }
@@ -64,9 +64,15 @@
   width: 304px;
   height: 78px;
 }
+.icon-icon {
+  background-image: url(images/spritesheet.png);
+  background-position: -764px -103px;
+  width: 16px;
+  height: 12px;
+}
 .icon-instagram {
   background-image: url(images/spritesheet.png);
-  background-position: -485px -245px;
+  background-position: -747px -204px;
   width: 30px;
   height: 28px;
 }
@@ -78,7 +84,7 @@
 }
 .icon-mail {
   background-image: url(images/spritesheet.png);
-  background-position: -485px -154px;
+  background-position: -637px -154px;
   width: 44px;
   height: 50px;
 }
@@ -96,7 +102,7 @@
 }
 .icon-next-event {
   background-image: url(images/spritesheet.png);
-  background-position: -515px -245px;
+  background-position: -513px -245px;
   width: 36px;
   height: 27px;
 }
@@ -120,13 +126,13 @@
 }
 .icon-prev-event {
   background-image: url(images/spritesheet.png);
-  background-position: -551px -245px;
+  background-position: -549px -245px;
   width: 36px;
   height: 27px;
 }
 .icon-small-cloud {
   background-image: url(images/spritesheet.png);
-  background-position: -529px -154px;
+  background-position: -485px -154px;
   width: 152px;
   height: 50px;
 }
